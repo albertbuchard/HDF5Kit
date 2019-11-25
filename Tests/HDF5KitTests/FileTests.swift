@@ -6,6 +6,7 @@
 
 import XCTest
 import HDF5Kit
+import CHDF5
 
 class FileTests: XCTestCase {
     let width = 100

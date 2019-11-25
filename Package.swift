@@ -10,12 +10,12 @@ let package = Package(
             targets: ["HDF5Kit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/aleph7/CHDF5.git", from: "1.0.0")
+        .package(url: "https://github.com/lubiluk/CHDF5.git", from: "1.1.0")
     ],
     targets: [
         .target(
             name: "HDF5Kit",
-            dependencies: [],
+            dependencies: ["CHDF5"],
             path: "Source"),
         .testTarget(
             name: "HDF5KitTests",
