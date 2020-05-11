@@ -1,3 +1,0 @@
-[submodule "Packages/CHDF5-1.0.0"]
-	path = Packages/CHDF5-1.0.0
-	url = https://github.com/lubiluk/CHDF5
