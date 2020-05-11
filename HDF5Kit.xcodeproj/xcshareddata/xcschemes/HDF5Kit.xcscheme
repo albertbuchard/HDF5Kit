@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA9C4DE92469C12600FDBE6B"
-               BuildableName = "HDF5Kit_WatchOS.framework"
+               BuildableName = "HDF5Kit.framework"
                BlueprintName = "HDF5Kit-WatchOS"
                ReferencedContainer = "container:HDF5Kit.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA9C4DE92469C12600FDBE6B"
-            BuildableName = "HDF5Kit_WatchOS.framework"
+            BuildableName = "HDF5Kit.framework"
             BlueprintName = "HDF5Kit-WatchOS"
             ReferencedContainer = "container:HDF5Kit.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA9C4DE92469C12600FDBE6B"
-            BuildableName = "HDF5Kit_WatchOS.framework"
+            BuildableName = "HDF5Kit.framework"
             BlueprintName = "HDF5Kit-WatchOS"
             ReferencedContainer = "container:HDF5Kit.xcodeproj">
          </BuildableReference>
