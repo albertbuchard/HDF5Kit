@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/al/dev/VM/HDF5/HDF5Kit.xcodeproj">
+      location = "self:/Users/albertbuchard/BIOS/gitlabs/HDF5Kit/HDF5Kit.xcodeproj">
    </FileRef>
 </Workspace>

@@ -845,6 +845,379 @@
 		A993B2EA1D85218900FC5B6F /* DoubleAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2BD1D8520F300FC5B6F /* DoubleAttribute.swift */; };
 		A993B2EB1D85218900FC5B6F /* IntAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2C01D8520FD00FC5B6F /* IntAttribute.swift */; };
 		A993B2EC1D85218900FC5B6F /* StringAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2C31D85210500FC5B6F /* StringAttribute.swift */; };
+		EA9C4E062469C2BA00FDBE6B /* H5.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314BA1BBDBA8D00F63C45 /* H5.c */; };
+		EA9C4E072469C2BA00FDBE6B /* H5A.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314BB1BBDBA8D00F63C45 /* H5A.c */; };
+		EA9C4E082469C2BB00FDBE6B /* H5Abtree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314BC1BBDBA8D00F63C45 /* H5Abtree2.c */; };
+		EA9C4E092469C2BB00FDBE6B /* H5AC.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314BD1BBDBA8D00F63C45 /* H5AC.c */; };
+		EA9C4E0A2469C2BC00FDBE6B /* H5AClog.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3371CB334BB0028D392 /* H5AClog.c */; };
+		EA9C4E0B2469C2BC00FDBE6B /* H5ACmpio.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3391CB334BB0028D392 /* H5ACmpio.c */; };
+		EA9C4E0C2469C2BC00FDBE6B /* H5Adense.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314C11BBDBA8D00F63C45 /* H5Adense.c */; };
+		EA9C4E0D2469C2BD00FDBE6B /* H5Adeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314C21BBDBA8D00F63C45 /* H5Adeprec.c */; };
+		EA9C4E0E2469C2BD00FDBE6B /* H5Aint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314C31BBDBA8D00F63C45 /* H5Aint.c */; };
+		EA9C4E0F2469C2BE00FDBE6B /* H5Atest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314C81BBDBA8D00F63C45 /* H5Atest.c */; };
+		EA9C4E102469C2BE00FDBE6B /* H5B.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314C91BBDBA8D00F63C45 /* H5B.c */; };
+		EA9C4E112469C2BF00FDBE6B /* H5B2.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314CA1BBDBA8D00F63C45 /* H5B2.c */; };
+		EA9C4E122469C2BF00FDBE6B /* H5B2cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314CB1BBDBA8D00F63C45 /* H5B2cache.c */; };
+		EA9C4E132469C2BF00FDBE6B /* H5B2dbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314CC1BBDBA8D00F63C45 /* H5B2dbg.c */; };
+		EA9C4E142469C2C000FDBE6B /* H5B2hdr.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314CD1BBDBA8D00F63C45 /* H5B2hdr.c */; };
+		EA9C4E152469C2C000FDBE6B /* H5B2int.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314CE1BBDBA8D00F63C45 /* H5B2int.c */; };
+		EA9C4E162469C2C100FDBE6B /* H5B2stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314D21BBDBA8D00F63C45 /* H5B2stat.c */; };
+		EA9C4E172469C2C100FDBE6B /* H5B2test.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314D31BBDBA8D00F63C45 /* H5B2test.c */; };
+		EA9C4E182469C2C100FDBE6B /* H5Bcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314D41BBDBA8D00F63C45 /* H5Bcache.c */; };
+		EA9C4E192469C2C200FDBE6B /* H5Bdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314D51BBDBA8D00F63C45 /* H5Bdbg.c */; };
+		EA9C4E1A2469C2C200FDBE6B /* H5C.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314D91BBDBA8D00F63C45 /* H5C.c */; };
+		EA9C4E1B2469C2C300FDBE6B /* H5checksum.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314DA1BBDBA8D00F63C45 /* H5checksum.c */; };
+		EA9C4E1C2469C2C300FDBE6B /* H5Cmpio.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C33E1CB334BC0028D392 /* H5Cmpio.c */; };
+		EA9C4E1D2469C2C400FDBE6B /* H5CS.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314DF1BBDBA8D00F63C45 /* H5CS.c */; };
+		EA9C4E1E2469C2C400FDBE6B /* H5D.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E11BBDBA8D00F63C45 /* H5D.c */; };
+		EA9C4E1F2469C2C400FDBE6B /* H5dbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E21BBDBA8D00F63C45 /* H5dbg.c */; };
+		EA9C4E202469C2C500FDBE6B /* H5Dbtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E31BBDBA8D00F63C45 /* H5Dbtree.c */; };
+		EA9C4E212469C2C500FDBE6B /* H5Dbtree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3401CB334BC0028D392 /* H5Dbtree2.c */; };
+		EA9C4E222469C2C600FDBE6B /* H5Dchunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E41BBDBA8D00F63C45 /* H5Dchunk.c */; };
+		EA9C4E232469C2C600FDBE6B /* H5Dcompact.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E51BBDBA8D00F63C45 /* H5Dcompact.c */; };
+		EA9C4E242469C2C600FDBE6B /* H5Dcontig.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E61BBDBA8D00F63C45 /* H5Dcontig.c */; };
+		EA9C4E252469C2C700FDBE6B /* H5Ddbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E71BBDBA8D00F63C45 /* H5Ddbg.c */; };
+		EA9C4E262469C2C700FDBE6B /* H5Ddeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E81BBDBA8D00F63C45 /* H5Ddeprec.c */; };
+		EA9C4E272469C2C800FDBE6B /* H5Dearray.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3411CB334BC0028D392 /* H5Dearray.c */; };
+		EA9C4E282469C2C800FDBE6B /* H5Defl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314E91BBDBA8D00F63C45 /* H5Defl.c */; };
+		EA9C4E292469C2C800FDBE6B /* H5Dfarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3431CB334BC0028D392 /* H5Dfarray.c */; };
+		EA9C4E2A2469C2C900FDBE6B /* H5Dfill.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314EB1BBDBA8D00F63C45 /* H5Dfill.c */; };
+		EA9C4E2B2469C2C900FDBE6B /* H5Dint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314EC1BBDBA8D00F63C45 /* H5Dint.c */; };
+		EA9C4E2C2469C2CA00FDBE6B /* H5Dio.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314ED1BBDBA8D00F63C45 /* H5Dio.c */; };
+		EA9C4E2D2469C2CA00FDBE6B /* H5Dlayout.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314EE1BBDBA8D00F63C45 /* H5Dlayout.c */; };
+		EA9C4E2E2469C2CA00FDBE6B /* H5Dmpio.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314EF1BBDBA8D00F63C45 /* H5Dmpio.c */; };
+		EA9C4E2F2469C2CB00FDBE6B /* H5Dnone.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3451CB334BC0028D392 /* H5Dnone.c */; };
+		EA9C4E302469C2CB00FDBE6B /* H5Doh.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314F01BBDBA8D00F63C45 /* H5Doh.c */; };
+		EA9C4E312469C2CC00FDBE6B /* H5Dscatgath.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314F41BBDBA8D00F63C45 /* H5Dscatgath.c */; };
+		EA9C4E322469C2CC00FDBE6B /* H5Dselect.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314F51BBDBA8D00F63C45 /* H5Dselect.c */; };
+		EA9C4E332469C2CD00FDBE6B /* H5Dsingle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3461CB334BC0028D392 /* H5Dsingle.c */; };
+		EA9C4E342469C2CD00FDBE6B /* H5Dtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314F61BBDBA8D00F63C45 /* H5Dtest.c */; };
+		EA9C4E352469C2CD00FDBE6B /* H5Dvirtual.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3471CB334BC0028D392 /* H5Dvirtual.c */; };
+		EA9C4E362469C2CE00FDBE6B /* H5E.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314F71BBDBA8D00F63C45 /* H5E.c */; };
+		EA9C4E372469C2CE00FDBE6B /* H5EA.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3481CB334BC0028D392 /* H5EA.c */; };
+		EA9C4E382469C2CF00FDBE6B /* H5EAcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3491CB334BC0028D392 /* H5EAcache.c */; };
+		EA9C4E392469C2CF00FDBE6B /* H5EAdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C34A1CB334BC0028D392 /* H5EAdbg.c */; };
+		EA9C4E3A2469C2CF00FDBE6B /* H5EAdblkpage.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C34B1CB334BC0028D392 /* H5EAdblkpage.c */; };
+		EA9C4E3B2469C2D000FDBE6B /* H5EAdblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C34C1CB334BC0028D392 /* H5EAdblock.c */; };
+		EA9C4E3C2469C2D000FDBE6B /* H5EAhdr.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C34D1CB334BC0028D392 /* H5EAhdr.c */; };
+		EA9C4E3D2469C2D100FDBE6B /* H5EAiblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C34E1CB334BC0028D392 /* H5EAiblock.c */; };
+		EA9C4E3E2469C2D100FDBE6B /* H5EAint.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C34F1CB334BC0028D392 /* H5EAint.c */; };
+		EA9C4E3F2469C2D100FDBE6B /* H5EAsblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3531CB334BC0028D392 /* H5EAsblock.c */; };
+		EA9C4E402469C2D200FDBE6B /* H5EAstat.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3541CB334BC0028D392 /* H5EAstat.c */; };
+		EA9C4E412469C2D200FDBE6B /* H5EAtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3551CB334BC0028D392 /* H5EAtest.c */; };
+		EA9C4E422469C2D300FDBE6B /* H5Edeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314F91BBDBA8D00F63C45 /* H5Edeprec.c */; };
+		EA9C4E432469C2D300FDBE6B /* H5Eint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B314FB1BBDBA8D00F63C45 /* H5Eint.c */; };
+		EA9C4E442469C2D300FDBE6B /* H5F.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315021BBDBA8D00F63C45 /* H5F.c */; };
+		EA9C4E452469C2D400FDBE6B /* H5FA.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3571CB334BC0028D392 /* H5FA.c */; };
+		EA9C4E462469C2D400FDBE6B /* H5FAcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3581CB334BC0028D392 /* H5FAcache.c */; };
+		EA9C4E472469C2D500FDBE6B /* H5Faccum.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315031BBDBA8D00F63C45 /* H5Faccum.c */; };
+		EA9C4E482469C2D500FDBE6B /* H5FAdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3591CB334BC0028D392 /* H5FAdbg.c */; };
+		EA9C4E492469C2D500FDBE6B /* H5FAdblkpage.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C35A1CB334BC0028D392 /* H5FAdblkpage.c */; };
+		EA9C4E4A2469C2D600FDBE6B /* H5FAdblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C35B1CB334BC0028D392 /* H5FAdblock.c */; };
+		EA9C4E4B2469C2D600FDBE6B /* H5FAhdr.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C35C1CB334BC0028D392 /* H5FAhdr.c */; };
+		EA9C4E4C2469C2D700FDBE6B /* H5FAint.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C35D1CB334BC0028D392 /* H5FAint.c */; };
+		EA9C4E4D2469C2D700FDBE6B /* H5FAstat.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3611CB334BC0028D392 /* H5FAstat.c */; };
+		EA9C4E4E2469C2D700FDBE6B /* H5FAtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3621CB334BC0028D392 /* H5FAtest.c */; };
+		EA9C4E4F2469C2D800FDBE6B /* H5Fcwfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315041BBDBA8D00F63C45 /* H5Fcwfs.c */; };
+		EA9C4E502469C2D800FDBE6B /* H5FD.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315051BBDBA8D00F63C45 /* H5FD.c */; };
+		EA9C4E512469C2D900FDBE6B /* H5Fdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315061BBDBA8D00F63C45 /* H5Fdbg.c */; };
+		EA9C4E522469C2D900FDBE6B /* H5FDcore.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315071BBDBA8D00F63C45 /* H5FDcore.c */; };
+		EA9C4E532469C2DA00FDBE6B /* H5FDdirect.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315091BBDBA8D00F63C45 /* H5FDdirect.c */; };
+		EA9C4E542469C2DA00FDBE6B /* H5Fdeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3641CB334BC0028D392 /* H5Fdeprec.c */; };
+		EA9C4E552469C2DA00FDBE6B /* H5FDfamily.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3150B1BBDBA8D00F63C45 /* H5FDfamily.c */; };
+		EA9C4E562469C2DB00FDBE6B /* H5FDint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3150D1BBDBA8D00F63C45 /* H5FDint.c */; };
+		EA9C4E572469C2DB00FDBE6B /* H5FDlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3150E1BBDBA8D00F63C45 /* H5FDlog.c */; };
+		EA9C4E582469C2DC00FDBE6B /* H5FDmpi.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315101BBDBA8D00F63C45 /* H5FDmpi.c */; };
+		EA9C4E592469C2DC00FDBE6B /* H5FDmpio.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315121BBDBA8D00F63C45 /* H5FDmpio.c */; };
+		EA9C4E5A2469C2DC00FDBE6B /* H5FDmulti.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315141BBDBA8D00F63C45 /* H5FDmulti.c */; };
+		EA9C4E5B2469C2DD00FDBE6B /* H5FDsec2.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315191BBDBA8D00F63C45 /* H5FDsec2.c */; };
+		EA9C4E5C2469C2DD00FDBE6B /* H5FDspace.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3151B1BBDBA8D00F63C45 /* H5FDspace.c */; };
+		EA9C4E5D2469C2DE00FDBE6B /* H5FDstdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3151C1BBDBA8D00F63C45 /* H5FDstdio.c */; };
+		EA9C4E5E2469C2DE00FDBE6B /* H5FDtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3661CB334BC0028D392 /* H5FDtest.c */; };
+		EA9C4E5F2469C2DE00FDBE6B /* H5FDwindows.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3151E1BBDBA8D00F63C45 /* H5FDwindows.c */; };
+		EA9C4E602469C2DF00FDBE6B /* H5Fefc.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315201BBDBA8D00F63C45 /* H5Fefc.c */; };
+		EA9C4E612469C2DF00FDBE6B /* H5Ffake.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315211BBDBA8D00F63C45 /* H5Ffake.c */; };
+		EA9C4E622469C2E000FDBE6B /* H5Fint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315221BBDBA8D00F63C45 /* H5Fint.c */; };
+		EA9C4E632469C2E000FDBE6B /* H5Fio.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315231BBDBA8D00F63C45 /* H5Fio.c */; };
+		EA9C4E642469C2E100FDBE6B /* H5FL.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315241BBDBA8D00F63C45 /* H5FL.c */; };
+		EA9C4E652469C2E100FDBE6B /* H5Fmount.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315261BBDBA8D00F63C45 /* H5Fmount.c */; };
+		EA9C4E662469C2E100FDBE6B /* H5Fmpi.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315271BBDBA8D00F63C45 /* H5Fmpi.c */; };
+		EA9C4E672469C2E200FDBE6B /* H5FO.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315281BBDBA8D00F63C45 /* H5FO.c */; };
+		EA9C4E682469C2E200FDBE6B /* H5Fquery.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3152D1BBDBA8D00F63C45 /* H5Fquery.c */; };
+		EA9C4E692469C2E300FDBE6B /* H5FS.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3152E1BBDBA8D00F63C45 /* H5FS.c */; };
+		EA9C4E6A2469C2E300FDBE6B /* H5FScache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3152F1BBDBA8D00F63C45 /* H5FScache.c */; };
+		EA9C4E6B2469C2E300FDBE6B /* H5FSdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315301BBDBA8D00F63C45 /* H5FSdbg.c */; };
+		EA9C4E6C2469C2E400FDBE6B /* H5Fsfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315311BBDBA8D00F63C45 /* H5Fsfile.c */; };
+		EA9C4E6D2469C2E400FDBE6B /* H5FSint.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3691CB334BC0028D392 /* H5FSint.c */; };
+		EA9C4E6E2469C2E500FDBE6B /* H5FSsection.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315351BBDBA8D00F63C45 /* H5FSsection.c */; };
+		EA9C4E6F2469C2E500FDBE6B /* H5FSstat.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315361BBDBA8D00F63C45 /* H5FSstat.c */; };
+		EA9C4E702469C2E500FDBE6B /* H5FStest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315371BBDBA8D00F63C45 /* H5FStest.c */; };
+		EA9C4E712469C2E600FDBE6B /* H5Fsuper_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315391BBDBA8D00F63C45 /* H5Fsuper_cache.c */; };
+		EA9C4E722469C2E600FDBE6B /* H5Fsuper.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315381BBDBA8D00F63C45 /* H5Fsuper.c */; };
+		EA9C4E732469C2E700FDBE6B /* H5Ftest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3153A1BBDBA8D00F63C45 /* H5Ftest.c */; };
+		EA9C4E742469C2E700FDBE6B /* H5G.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3153B1BBDBA8D00F63C45 /* H5G.c */; };
+		EA9C4E752469C2E800FDBE6B /* H5Gbtree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3153C1BBDBA8D00F63C45 /* H5Gbtree2.c */; };
+		EA9C4E762469C2E800FDBE6B /* H5Gcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3153D1BBDBA8D00F63C45 /* H5Gcache.c */; };
+		EA9C4E772469C2E800FDBE6B /* H5Gcompact.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3153E1BBDBA8D00F63C45 /* H5Gcompact.c */; };
+		EA9C4E782469C2E900FDBE6B /* H5Gdense.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3153F1BBDBA8D00F63C45 /* H5Gdense.c */; };
+		EA9C4E792469C2E900FDBE6B /* H5Gdeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315401BBDBA8D00F63C45 /* H5Gdeprec.c */; };
+		EA9C4E7A2469C2EA00FDBE6B /* H5Gent.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315411BBDBA8D00F63C45 /* H5Gent.c */; };
+		EA9C4E7B2469C2EA00FDBE6B /* H5Gint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315421BBDBA8D00F63C45 /* H5Gint.c */; };
+		EA9C4E7C2469C2EA00FDBE6B /* H5Glink.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315431BBDBA8D00F63C45 /* H5Glink.c */; };
+		EA9C4E7D2469C2EB00FDBE6B /* H5Gloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315441BBDBA8D00F63C45 /* H5Gloc.c */; };
+		EA9C4E7E2469C2EB00FDBE6B /* H5Gname.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315451BBDBA8D00F63C45 /* H5Gname.c */; };
+		EA9C4E7F2469C2EC00FDBE6B /* H5Gnode.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315461BBDBA8D00F63C45 /* H5Gnode.c */; };
+		EA9C4E802469C2EC00FDBE6B /* H5Gobj.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315471BBDBA8D00F63C45 /* H5Gobj.c */; };
+		EA9C4E812469C2EC00FDBE6B /* H5Goh.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315481BBDBA8D00F63C45 /* H5Goh.c */; };
+		EA9C4E822469C2ED00FDBE6B /* H5Groot.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3154C1BBDBA8D00F63C45 /* H5Groot.c */; };
+		EA9C4E832469C2ED00FDBE6B /* H5Gstab.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3154D1BBDBA8D00F63C45 /* H5Gstab.c */; };
+		EA9C4E842469C2EE00FDBE6B /* H5Gtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3154E1BBDBA8D00F63C45 /* H5Gtest.c */; };
+		EA9C4E852469C2EE00FDBE6B /* H5Gtraverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3154F1BBDBA8D00F63C45 /* H5Gtraverse.c */; };
+		EA9C4E862469C2EE00FDBE6B /* H5HF.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315501BBDBA8D00F63C45 /* H5HF.c */; };
+		EA9C4E872469C2EF00FDBE6B /* H5HFbtree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315511BBDBA8D00F63C45 /* H5HFbtree2.c */; };
+		EA9C4E882469C2EF00FDBE6B /* H5HFcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315521BBDBA8D00F63C45 /* H5HFcache.c */; };
+		EA9C4E892469C2F000FDBE6B /* H5HFdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315531BBDBA8D00F63C45 /* H5HFdbg.c */; };
+		EA9C4E8A2469C2F000FDBE6B /* H5HFdblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315541BBDBA8D00F63C45 /* H5HFdblock.c */; };
+		EA9C4E8B2469C2F100FDBE6B /* H5HFdtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315551BBDBA8D00F63C45 /* H5HFdtable.c */; };
+		EA9C4E8C2469C2F100FDBE6B /* H5HFhdr.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315561BBDBA8D00F63C45 /* H5HFhdr.c */; };
+		EA9C4E8D2469C2F100FDBE6B /* H5HFhuge.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315571BBDBA8D00F63C45 /* H5HFhuge.c */; };
+		EA9C4E8E2469C2F200FDBE6B /* H5HFiblock.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315581BBDBA8D00F63C45 /* H5HFiblock.c */; };
+		EA9C4E8F2469C2F200FDBE6B /* H5HFint.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C36C1CB334BC0028D392 /* H5HFint.c */; };
+		EA9C4E902469C2F300FDBE6B /* H5HFiter.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315591BBDBA8D00F63C45 /* H5HFiter.c */; };
+		EA9C4E912469C2F300FDBE6B /* H5HFman.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3155A1BBDBA8D00F63C45 /* H5HFman.c */; };
+		EA9C4E922469C2F300FDBE6B /* H5HFsection.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3155E1BBDBA8D00F63C45 /* H5HFsection.c */; };
+		EA9C4E932469C2F400FDBE6B /* H5HFspace.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3155F1BBDBA8D00F63C45 /* H5HFspace.c */; };
+		EA9C4E942469C2F400FDBE6B /* H5HFstat.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315601BBDBA8D00F63C45 /* H5HFstat.c */; };
+		EA9C4E952469C2F500FDBE6B /* H5HFtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315611BBDBA8D00F63C45 /* H5HFtest.c */; };
+		EA9C4E962469C2F500FDBE6B /* H5HFtiny.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315621BBDBA8D00F63C45 /* H5HFtiny.c */; };
+		EA9C4E972469C2F500FDBE6B /* H5HG.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315631BBDBA8D00F63C45 /* H5HG.c */; };
+		EA9C4E982469C2F600FDBE6B /* H5HGcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315641BBDBA8D00F63C45 /* H5HGcache.c */; };
+		EA9C4E992469C2F600FDBE6B /* H5HGdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315651BBDBA8D00F63C45 /* H5HGdbg.c */; };
+		EA9C4E9A2469C2F700FDBE6B /* H5HGquery.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315691BBDBA8D00F63C45 /* H5HGquery.c */; };
+		EA9C4E9B2469C2F700FDBE6B /* H5HL.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3156A1BBDBA8D00F63C45 /* H5HL.c */; };
+		EA9C4E9C2469C2F800FDBE6B /* H5HLcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3156B1BBDBA8D00F63C45 /* H5HLcache.c */; };
+		EA9C4E9D2469C2F800FDBE6B /* H5HLdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3156C1BBDBA8D00F63C45 /* H5HLdbg.c */; };
+		EA9C4E9E2469C2F800FDBE6B /* H5HLdblk.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C36F1CB334BC0028D392 /* H5HLdblk.c */; };
+		EA9C4E9F2469C2F900FDBE6B /* H5HLint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3156D1BBDBA8D00F63C45 /* H5HLint.c */; };
+		EA9C4EA02469C2F900FDBE6B /* H5HLprfx.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3711CB334BC0028D392 /* H5HLprfx.c */; };
+		EA9C4EA12469C2FA00FDBE6B /* H5HP.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315711BBDBA8D00F63C45 /* H5HP.c */; };
+		EA9C4EA22469C2FA00FDBE6B /* H5I.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315731BBDBA8D00F63C45 /* H5I.c */; };
+		EA9C4EA32469C2FA00FDBE6B /* H5Itest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315771BBDBA8D00F63C45 /* H5Itest.c */; };
+		EA9C4EA42469C2FB00FDBE6B /* H5L.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315781BBDBA8D00F63C45 /* H5L.c */; };
+		EA9C4EA52469C2FB00FDBE6B /* H5Lexternal.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315791BBDBA8D00F63C45 /* H5Lexternal.c */; };
+		EA9C4EA62469C2FC00FDBE6B /* H5lib_settings.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B317901BBDC16F00F63C45 /* H5lib_settings.c */; };
+		EA9C4EA72469C2FC00FDBE6B /* H5make_libsettings.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3741CB334BC0028D392 /* H5make_libsettings.c */; };
+		EA9C4EA82469C2FC00FDBE6B /* H5MF.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3157E1BBDBA8D00F63C45 /* H5MF.c */; };
+		EA9C4EA92469C2FD00FDBE6B /* H5MFaggr.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3157F1BBDBA8D00F63C45 /* H5MFaggr.c */; };
+		EA9C4EAA2469C2FD00FDBE6B /* H5MFdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315801BBDBA8D00F63C45 /* H5MFdbg.c */; };
+		EA9C4EAB2469C2FE00FDBE6B /* H5MFsection.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315831BBDBA8D00F63C45 /* H5MFsection.c */; };
+		EA9C4EAC2469C2FE00FDBE6B /* H5MM.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315841BBDBA8D00F63C45 /* H5MM.c */; };
+		EA9C4EAD2469C2FE00FDBE6B /* H5MP.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315871BBDBA8D00F63C45 /* H5MP.c */; };
+		EA9C4EAE2469C2FF00FDBE6B /* H5MPtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3158A1BBDBA8D00F63C45 /* H5MPtest.c */; };
+		EA9C4EAF2469C2FF00FDBE6B /* H5O.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3158B1BBDBA8D00F63C45 /* H5O.c */; };
+		EA9C4EB02469C30000FDBE6B /* H5Oainfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3158C1BBDBA8E00F63C45 /* H5Oainfo.c */; };
+		EA9C4EB12469C30000FDBE6B /* H5Oalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3158D1BBDBA8E00F63C45 /* H5Oalloc.c */; };
+		EA9C4EB22469C30000FDBE6B /* H5Oattr.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3158E1BBDBA8E00F63C45 /* H5Oattr.c */; };
+		EA9C4EB32469C30100FDBE6B /* H5Oattribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3158F1BBDBA8E00F63C45 /* H5Oattribute.c */; };
+		EA9C4EB42469C30100FDBE6B /* H5Obogus.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315901BBDBA8E00F63C45 /* H5Obogus.c */; };
+		EA9C4EB52469C30200FDBE6B /* H5Obtreek.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315911BBDBA8E00F63C45 /* H5Obtreek.c */; };
+		EA9C4EB62469C30200FDBE6B /* H5Ocache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315921BBDBA8E00F63C45 /* H5Ocache.c */; };
+		EA9C4EB72469C30200FDBE6B /* H5Ochunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315931BBDBA8E00F63C45 /* H5Ochunk.c */; };
+		EA9C4EB82469C30300FDBE6B /* H5Ocont.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315941BBDBA8E00F63C45 /* H5Ocont.c */; };
+		EA9C4EB92469C30300FDBE6B /* H5Ocopy.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315951BBDBA8E00F63C45 /* H5Ocopy.c */; };
+		EA9C4EBA2469C30400FDBE6B /* H5Odbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315961BBDBA8E00F63C45 /* H5Odbg.c */; };
+		EA9C4EBB2469C30400FDBE6B /* H5Odrvinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315971BBDBA8E00F63C45 /* H5Odrvinfo.c */; };
+		EA9C4EBC2469C30500FDBE6B /* H5Odtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315981BBDBA8E00F63C45 /* H5Odtype.c */; };
+		EA9C4EBD2469C30500FDBE6B /* H5Oefl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315991BBDBA8E00F63C45 /* H5Oefl.c */; };
+		EA9C4EBE2469C30500FDBE6B /* H5Ofill.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3159A1BBDBA8E00F63C45 /* H5Ofill.c */; };
+		EA9C4EBF2469C30600FDBE6B /* H5Oflush.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3771CB334BC0028D392 /* H5Oflush.c */; };
+		EA9C4EC02469C30600FDBE6B /* H5Ofsinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3781CB334BC0028D392 /* H5Ofsinfo.c */; };
+		EA9C4EC12469C30700FDBE6B /* H5Oginfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3159B1BBDBA8E00F63C45 /* H5Oginfo.c */; };
+		EA9C4EC22469C30700FDBE6B /* H5Olayout.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3159C1BBDBA8E00F63C45 /* H5Olayout.c */; };
+		EA9C4EC32469C30700FDBE6B /* H5Olinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3159D1BBDBA8E00F63C45 /* H5Olinfo.c */; };
+		EA9C4EC42469C30800FDBE6B /* H5Olink.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3159E1BBDBA8E00F63C45 /* H5Olink.c */; };
+		EA9C4EC52469C30800FDBE6B /* H5Omessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3159F1BBDBA8E00F63C45 /* H5Omessage.c */; };
+		EA9C4EC62469C30900FDBE6B /* H5Omtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A01BBDBA8E00F63C45 /* H5Omtime.c */; };
+		EA9C4EC72469C30900FDBE6B /* H5Oname.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A11BBDBA8E00F63C45 /* H5Oname.c */; };
+		EA9C4EC82469C30900FDBE6B /* H5Onull.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A21BBDBA8E00F63C45 /* H5Onull.c */; };
+		EA9C4EC92469C30A00FDBE6B /* H5Opline.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A41BBDBA8E00F63C45 /* H5Opline.c */; };
+		EA9C4ECA2469C30A00FDBE6B /* H5Oproxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C37A1CB334BC0028D392 /* H5Oproxy.c */; };
+		EA9C4ECB2469C30B00FDBE6B /* H5Orefcount.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A71BBDBA8E00F63C45 /* H5Orefcount.c */; };
+		EA9C4ECC2469C30B00FDBE6B /* H5Osdspace.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A81BBDBA8E00F63C45 /* H5Osdspace.c */; };
+		EA9C4ECD2469C30B00FDBE6B /* H5Oshared.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315A91BBDBA8E00F63C45 /* H5Oshared.c */; };
+		EA9C4ECE2469C30C00FDBE6B /* H5Oshmesg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315AB1BBDBA8E00F63C45 /* H5Oshmesg.c */; };
+		EA9C4ECF2469C30C00FDBE6B /* H5Ostab.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315AC1BBDBA8E00F63C45 /* H5Ostab.c */; };
+		EA9C4ED02469C30D00FDBE6B /* H5Otest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315AD1BBDBA8E00F63C45 /* H5Otest.c */; };
+		EA9C4ED12469C30D00FDBE6B /* H5Ounknown.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315AE1BBDBA8E00F63C45 /* H5Ounknown.c */; };
+		EA9C4ED22469C30D00FDBE6B /* H5P.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B11BBDBA8E00F63C45 /* H5P.c */; };
+		EA9C4ED32469C30E00FDBE6B /* H5Pacpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B21BBDBA8E00F63C45 /* H5Pacpl.c */; };
+		EA9C4ED42469C30E00FDBE6B /* H5Pdapl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B31BBDBA8E00F63C45 /* H5Pdapl.c */; };
+		EA9C4ED52469C30F00FDBE6B /* H5Pdcpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B41BBDBA8E00F63C45 /* H5Pdcpl.c */; };
+		EA9C4ED62469C30F00FDBE6B /* H5Pdeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B51BBDBA8E00F63C45 /* H5Pdeprec.c */; };
+		EA9C4ED72469C30F00FDBE6B /* H5Pdxpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B61BBDBA8E00F63C45 /* H5Pdxpl.c */; };
+		EA9C4ED82469C31000FDBE6B /* H5Pencdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C37B1CB334BC0028D392 /* H5Pencdec.c */; };
+		EA9C4ED92469C31000FDBE6B /* H5Pfapl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B71BBDBA8E00F63C45 /* H5Pfapl.c */; };
+		EA9C4EDA2469C31100FDBE6B /* H5Pfcpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B81BBDBA8E00F63C45 /* H5Pfcpl.c */; };
+		EA9C4EDB2469C31100FDBE6B /* H5Pfmpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315B91BBDBA8E00F63C45 /* H5Pfmpl.c */; };
+		EA9C4EDC2469C31100FDBE6B /* H5Pgcpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315BA1BBDBA8E00F63C45 /* H5Pgcpl.c */; };
+		EA9C4EDD2469C31200FDBE6B /* H5Pint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315BB1BBDBA8E00F63C45 /* H5Pint.c */; };
+		EA9C4EDE2469C31200FDBE6B /* H5PL.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315BC1BBDBA8E00F63C45 /* H5PL.c */; };
+		EA9C4EDF2469C31300FDBE6B /* H5Plapl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315BD1BBDBA8E00F63C45 /* H5Plapl.c */; };
+		EA9C4EE02469C31300FDBE6B /* H5Plcpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315BE1BBDBA8E00F63C45 /* H5Plcpl.c */; };
+		EA9C4EE12469C31300FDBE6B /* H5Pocpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315C21BBDBA8E00F63C45 /* H5Pocpl.c */; };
+		EA9C4EE22469C31400FDBE6B /* H5Pocpypl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315C31BBDBA8E00F63C45 /* H5Pocpypl.c */; };
+		EA9C4EE32469C31400FDBE6B /* H5Pstrcpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315C81BBDBA8E00F63C45 /* H5Pstrcpl.c */; };
+		EA9C4EE42469C31500FDBE6B /* H5Ptest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315C91BBDBA8E00F63C45 /* H5Ptest.c */; };
+		EA9C4EE52469C31500FDBE6B /* H5R.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315CB1BBDBA8E00F63C45 /* H5R.c */; };
+		EA9C4EE62469C31500FDBE6B /* H5RC.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315CC1BBDBA8E00F63C45 /* H5RC.c */; };
+		EA9C4EE72469C31600FDBE6B /* H5Rdeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315CE1BBDBA8E00F63C45 /* H5Rdeprec.c */; };
+		EA9C4EE82469C31600FDBE6B /* H5RS.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315D21BBDBA8E00F63C45 /* H5RS.c */; };
+		EA9C4EE92469C31700FDBE6B /* H5S.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315D41BBDBA8E00F63C45 /* H5S.c */; };
+		EA9C4EEA2469C31700FDBE6B /* H5Sall.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315D51BBDBA8E00F63C45 /* H5Sall.c */; };
+		EA9C4EEB2469C31700FDBE6B /* H5Sdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315D61BBDBA8E00F63C45 /* H5Sdbg.c */; };
+		EA9C4EEC2469C31800FDBE6B /* H5Shyper.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315D71BBDBA8E00F63C45 /* H5Shyper.c */; };
+		EA9C4EED2469C31800FDBE6B /* H5SL.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315D81BBDBA8E00F63C45 /* H5SL.c */; };
+		EA9C4EEE2469C31900FDBE6B /* H5SM.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315DA1BBDBA8E00F63C45 /* H5SM.c */; };
+		EA9C4EEF2469C31900FDBE6B /* H5SMbtree2.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315DB1BBDBA8E00F63C45 /* H5SMbtree2.c */; };
+		EA9C4EF02469C31900FDBE6B /* H5SMcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315DC1BBDBA8E00F63C45 /* H5SMcache.c */; };
+		EA9C4EF12469C31A00FDBE6B /* H5SMmessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315DD1BBDBA8E00F63C45 /* H5SMmessage.c */; };
+		EA9C4EF22469C31A00FDBE6B /* H5Smpio.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315DE1BBDBA8E00F63C45 /* H5Smpio.c */; };
+		EA9C4EF32469C31B00FDBE6B /* H5SMtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315E11BBDBA8E00F63C45 /* H5SMtest.c */; };
+		EA9C4EF42469C31B00FDBE6B /* H5Snone.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315E21BBDBA8E00F63C45 /* H5Snone.c */; };
+		EA9C4EF52469C31B00FDBE6B /* H5Spoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315E41BBDBA8E00F63C45 /* H5Spoint.c */; };
+		EA9C4EF62469C31C00FDBE6B /* H5Sselect.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315E71BBDBA8E00F63C45 /* H5Sselect.c */; };
+		EA9C4EF72469C31C00FDBE6B /* H5ST.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315E81BBDBA8E00F63C45 /* H5ST.c */; };
+		EA9C4EF82469C31D00FDBE6B /* H5Stest.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315E91BBDBA8E00F63C45 /* H5Stest.c */; };
+		EA9C4EF92469C31D00FDBE6B /* H5system.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315EB1BBDBA8E00F63C45 /* H5system.c */; };
+		EA9C4EFA2469C31D00FDBE6B /* H5T.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315EC1BBDBA8E00F63C45 /* H5T.c */; };
+		EA9C4EFB2469C31E00FDBE6B /* H5Tarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315ED1BBDBA8E00F63C45 /* H5Tarray.c */; };
+		EA9C4EFC2469C31E00FDBE6B /* H5Tbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315EE1BBDBA8E00F63C45 /* H5Tbit.c */; };
+		EA9C4EFD2469C31F00FDBE6B /* H5Tcommit.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315EF1BBDBA8E00F63C45 /* H5Tcommit.c */; };
+		EA9C4EFE2469C31F00FDBE6B /* H5Tcompound.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F01BBDBA8E00F63C45 /* H5Tcompound.c */; };
+		EA9C4EFF2469C31F00FDBE6B /* H5Tconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F11BBDBA8E00F63C45 /* H5Tconv.c */; };
+		EA9C4F002469C32000FDBE6B /* H5Tcset.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F21BBDBA8E00F63C45 /* H5Tcset.c */; };
+		EA9C4F012469C32000FDBE6B /* H5Tdbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F31BBDBA8E00F63C45 /* H5Tdbg.c */; };
+		EA9C4F022469C32100FDBE6B /* H5Tdeprec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F41BBDBA8E00F63C45 /* H5Tdeprec.c */; };
+		EA9C4F032469C32100FDBE6B /* H5Tenum.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F51BBDBA8E00F63C45 /* H5Tenum.c */; };
+		EA9C4F042469C32200FDBE6B /* H5Tfields.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F61BBDBA8E00F63C45 /* H5Tfields.c */; };
+		EA9C4F052469C32200FDBE6B /* H5Tfixed.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F71BBDBA8E00F63C45 /* H5Tfixed.c */; };
+		EA9C4F062469C32200FDBE6B /* H5Tfloat.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F81BBDBA8E00F63C45 /* H5Tfloat.c */; };
+		EA9C4F072469C32300FDBE6B /* H5timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315F91BBDBA8E00F63C45 /* H5timer.c */; };
+		EA9C4F082469C32300FDBE6B /* H5Tinit.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3178E1BBDC14500F63C45 /* H5Tinit.c */; };
+		EA9C4F092469C32400FDBE6B /* H5Tnative.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315FA1BBDBA8E00F63C45 /* H5Tnative.c */; };
+		EA9C4F0A2469C32400FDBE6B /* H5Toffset.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315FB1BBDBA8E00F63C45 /* H5Toffset.c */; };
+		EA9C4F0B2469C32400FDBE6B /* H5Toh.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315FC1BBDBA8E00F63C45 /* H5Toh.c */; };
+		EA9C4F0C2469C32500FDBE6B /* H5Topaque.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315FD1BBDBA8E00F63C45 /* H5Topaque.c */; };
+		EA9C4F0D2469C32500FDBE6B /* H5Torder.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315FE1BBDBA8E00F63C45 /* H5Torder.c */; };
+		EA9C4F0E2469C32600FDBE6B /* H5Tpad.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B315FF1BBDBA8E00F63C45 /* H5Tpad.c */; };
+		EA9C4F0F2469C32600FDBE6B /* H5Tprecis.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316011BBDBA8E00F63C45 /* H5Tprecis.c */; };
+		EA9C4F102469C32600FDBE6B /* H5trace.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316041BBDBA8E00F63C45 /* H5trace.c */; };
+		EA9C4F112469C32700FDBE6B /* H5TS.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316051BBDBA8E00F63C45 /* H5TS.c */; };
+		EA9C4F122469C32700FDBE6B /* H5Tstrpad.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316071BBDBA8E00F63C45 /* H5Tstrpad.c */; };
+		EA9C4F132469C32700FDBE6B /* H5Tvisit.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316081BBDBA8E00F63C45 /* H5Tvisit.c */; };
+		EA9C4F142469C32800FDBE6B /* H5Tvlen.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316091BBDBA8E00F63C45 /* H5Tvlen.c */; };
+		EA9C4F152469C32800FDBE6B /* H5UC.c in Sources */ = {isa = PBXBuildFile; fileRef = 6176C3831CB334BC0028D392 /* H5UC.c */; };
+		EA9C4F162469C32900FDBE6B /* H5VM.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3160C1BBDBA8E00F63C45 /* H5VM.c */; };
+		EA9C4F172469C32900FDBE6B /* H5WB.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3160E1BBDBA8E00F63C45 /* H5WB.c */; };
+		EA9C4F182469C32900FDBE6B /* H5Z.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316111BBDBA8E00F63C45 /* H5Z.c */; };
+		EA9C4F192469C32A00FDBE6B /* H5Zdeflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316121BBDBA8E00F63C45 /* H5Zdeflate.c */; };
+		EA9C4F1A2469C32A00FDBE6B /* H5Zfletcher32.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316131BBDBA8E00F63C45 /* H5Zfletcher32.c */; };
+		EA9C4F1B2469C32B00FDBE6B /* H5Znbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316141BBDBA8E00F63C45 /* H5Znbit.c */; };
+		EA9C4F1C2469C32B00FDBE6B /* H5Zscaleoffset.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316181BBDBA8E00F63C45 /* H5Zscaleoffset.c */; };
+		EA9C4F1D2469C32B00FDBE6B /* H5Zshuffle.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B316191BBDBA8E00F63C45 /* H5Zshuffle.c */; };
+		EA9C4F1E2469C32C00FDBE6B /* H5Zszip.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3161A1BBDBA8E00F63C45 /* H5Zszip.c */; };
+		EA9C4F1F2469C32C00FDBE6B /* H5Ztrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B3161B1BBDBA8E00F63C45 /* H5Ztrans.c */; };
+		EA9C4F202469C32D00FDBE6B /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2B21D84F20300FC5B6F /* Attribute.swift */; };
+		EA9C4F212469C32D00FDBE6B /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3179A1BBDF1C900F63C45 /* Dataset.swift */; };
+		EA9C4F222469C32D00FDBE6B /* Dataspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B317961BBDE74400F63C45 /* Dataspace.swift */; };
+		EA9C4F232469C32E00FDBE6B /* Datatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B317981BBDEAD700F63C45 /* Datatype.swift */; };
+		EA9C4F242469C32E00FDBE6B /* DoubleAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2BD1D8520F300FC5B6F /* DoubleAttribute.swift */; };
+		EA9C4F252469C32F00FDBE6B /* DoubleDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE30661C191A3400324344 /* DoubleDataset.swift */; };
+		EA9C4F262469C32F00FDBE6B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB7D671C19FC9500ED6532 /* Error.swift */; };
+		EA9C4F272469C32F00FDBE6B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B317941BBDE23200F63C45 /* File.swift */; };
+		EA9C4F282469C33000FDBE6B /* FloatAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2B81D84F82900FC5B6F /* FloatAttribute.swift */; };
+		EA9C4F292469C33000FDBE6B /* FloatDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE306F1C191D2100324344 /* FloatDataset.swift */; };
+		EA9C4F2A2469C33100FDBE6B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B83A91BDC61A600B28545 /* Group.swift */; };
+		EA9C4F2B2469C33100FDBE6B /* HyperslabIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B02AB11BFE832B0054F2BF /* HyperslabIndex.swift */; };
+		EA9C4F2C2469C33100FDBE6B /* IntAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2C01D8520FD00FC5B6F /* IntAttribute.swift */; };
+		EA9C4F2D2469C33200FDBE6B /* IntDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE30691C191C4200324344 /* IntDataset.swift */; };
+		EA9C4F2E2469C33200FDBE6B /* NativeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3179C1BBE21CE00F63C45 /* NativeType.swift */; };
+		EA9C4F2F2469C33300FDBE6B /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B83AC1BDD493200B28545 /* Object.swift */; };
+		EA9C4F302469C33300FDBE6B /* StringAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993B2C31D85210500FC5B6F /* StringAttribute.swift */; };
+		EA9C4F312469C33300FDBE6B /* StringDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE306C1C191C4E00324344 /* StringDataset.swift */; };
+		EA9C4F322469C3A500FDBE6B /* H5ACprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314BF1BBDBA8D00F63C45 /* H5ACprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F332469C3A600FDBE6B /* H5Aprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314C61BBDBA8D00F63C45 /* H5Aprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F342469C3A600FDBE6B /* H5B2private.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314D01BBDBA8D00F63C45 /* H5B2private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F352469C3A600FDBE6B /* H5Bprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314D71BBDBA8D00F63C45 /* H5Bprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F362469C3A600FDBE6B /* H5Cprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314DD1BBDBA8D00F63C45 /* H5Cprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F372469C3A700FDBE6B /* H5CSprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314E01BBDBA8D00F63C45 /* H5CSprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F382469C3A700FDBE6B /* H5Dprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314F21BBDBA8D00F63C45 /* H5Dprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F392469C3A700FDBE6B /* H5Eprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314FD1BBDBA8D00F63C45 /* H5Eprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F3A2469C3A700FDBE6B /* H5FDprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315171BBDBA8D00F63C45 /* H5FDprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F3B2469C3A800FDBE6B /* H5FLprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315251BBDBA8D00F63C45 /* H5FLprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F3C2469C3A800FDBE6B /* H5FOprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315291BBDBA8D00F63C45 /* H5FOprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F3D2469C3A800FDBE6B /* H5Fprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3152B1BBDBA8D00F63C45 /* H5Fprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F3E2469C3A800FDBE6B /* H5FSprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315331BBDBA8D00F63C45 /* H5FSprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F3F2469C3A900FDBE6B /* H5Gprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3154A1BBDBA8D00F63C45 /* H5Gprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F402469C3A900FDBE6B /* H5HFprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3155C1BBDBA8D00F63C45 /* H5HFprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F412469C3A900FDBE6B /* H5HGprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315671BBDBA8D00F63C45 /* H5HGprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F422469C3A900FDBE6B /* H5HLprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3156F1BBDBA8D00F63C45 /* H5HLprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F432469C3AA00FDBE6B /* H5HPprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315721BBDBA8D00F63C45 /* H5HPprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F442469C3AA00FDBE6B /* H5Iprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315751BBDBA8D00F63C45 /* H5Iprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F452469C3AA00FDBE6B /* H5Lprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3157B1BBDBA8D00F63C45 /* H5Lprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F462469C3AA00FDBE6B /* H5MFprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315821BBDBA8D00F63C45 /* H5MFprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F472469C3AA00FDBE6B /* H5MMprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315851BBDBA8D00F63C45 /* H5MMprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F482469C3AB00FDBE6B /* H5MPprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315891BBDBA8D00F63C45 /* H5MPprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F492469C3AB00FDBE6B /* H5Oprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315A51BBDBA8E00F63C45 /* H5Oprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F4A2469C3AB00FDBE6B /* H5PLprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315C01BBDBA8E00F63C45 /* H5PLprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F4B2469C3AB00FDBE6B /* H5Pprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315C51BBDBA8E00F63C45 /* H5Pprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F4C2469C3AC00FDBE6B /* H5private.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315C71BBDBA8E00F63C45 /* H5private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F4D2469C3AC00FDBE6B /* H5RCprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315CD1BBDBA8E00F63C45 /* H5RCprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F4E2469C3AC00FDBE6B /* H5Rprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315D01BBDBA8E00F63C45 /* H5Rprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F4F2469C3AC00FDBE6B /* H5RSprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315D31BBDBA8E00F63C45 /* H5RSprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F502469C3AD00FDBE6B /* H5SLprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315D91BBDBA8E00F63C45 /* H5SLprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F512469C3AD00FDBE6B /* H5SMprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315E01BBDBA8E00F63C45 /* H5SMprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F522469C3AD00FDBE6B /* H5Sprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315E51BBDBA8E00F63C45 /* H5Sprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F532469C3AD00FDBE6B /* H5STprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315EA1BBDBA8E00F63C45 /* H5STprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F542469C3AE00FDBE6B /* H5Tprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B316021BBDBA8E00F63C45 /* H5Tprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F552469C3AE00FDBE6B /* H5TSprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B316061BBDBA8E00F63C45 /* H5TSprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F562469C3AE00FDBE6B /* H5VMprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3160D1BBDBA8E00F63C45 /* H5VMprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F572469C3AE00FDBE6B /* H5WBprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3160F1BBDBA8E00F63C45 /* H5WBprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F582469C3AF00FDBE6B /* H5Zprivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B316161BBDBA8E00F63C45 /* H5Zprivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9C4F592469D89100FDBE6B /* H5ACpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314C01BBDBA8D00F63C45 /* H5ACpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F5A2469D89100FDBE6B /* H5api_adpt.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314C41BBDBA8D00F63C45 /* H5api_adpt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F5B2469D89100FDBE6B /* H5Apublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314C71BBDBA8D00F63C45 /* H5Apublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F5C2469D89100FDBE6B /* H5B2public.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314D11BBDBA8D00F63C45 /* H5B2public.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F5D2469D89200FDBE6B /* H5Bpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314D81BBDBA8D00F63C45 /* H5Bpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F5E2469D89200FDBE6B /* H5Cpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314DE1BBDBA8D00F63C45 /* H5Cpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F5F2469D89200FDBE6B /* H5Dpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314F31BBDBA8D00F63C45 /* H5Dpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F602469D89200FDBE6B /* H5Epubgen.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314FE1BBDBA8D00F63C45 /* H5Epubgen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F612469D89300FDBE6B /* H5Epublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314FF1BBDBA8D00F63C45 /* H5Epublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F622469D89300FDBE6B /* H5FDpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315181BBDBA8D00F63C45 /* H5FDpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F632469D89300FDBE6B /* H5Fpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3152C1BBDBA8D00F63C45 /* H5Fpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F642469D89300FDBE6B /* H5FSpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315341BBDBA8D00F63C45 /* H5FSpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F652469D89400FDBE6B /* H5Gpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3154B1BBDBA8D00F63C45 /* H5Gpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F662469D89400FDBE6B /* H5HFpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3155D1BBDBA8D00F63C45 /* H5HFpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F672469D89400FDBE6B /* H5HGpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315681BBDBA8D00F63C45 /* H5HGpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F682469D89400FDBE6B /* H5HLpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315701BBDBA8D00F63C45 /* H5HLpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F692469D89400FDBE6B /* H5Ipublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315761BBDBA8D00F63C45 /* H5Ipublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F6A2469D89500FDBE6B /* H5Lpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3157C1BBDBA8D00F63C45 /* H5Lpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F6B2469D89500FDBE6B /* H5MMpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315861BBDBA8D00F63C45 /* H5MMpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F6C2469D89500FDBE6B /* H5Opublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315A61BBDBA8E00F63C45 /* H5Opublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F6D2469D89500FDBE6B /* H5PLpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315C11BBDBA8E00F63C45 /* H5PLpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F6E2469D89600FDBE6B /* H5Ppublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315C61BBDBA8E00F63C45 /* H5Ppublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F6F2469D89600FDBE6B /* H5pubconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B317891BBDBBA000F63C45 /* H5pubconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F702469D89600FDBE6B /* H5public.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315CA1BBDBA8E00F63C45 /* H5public.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F712469D89600FDBE6B /* H5Rpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315D11BBDBA8E00F63C45 /* H5Rpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F722469D89700FDBE6B /* H5Spublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B315E61BBDBA8E00F63C45 /* H5Spublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F732469D89700FDBE6B /* H5Tpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B316031BBDBA8E00F63C45 /* H5Tpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F742469D89700FDBE6B /* H5version.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3160B1BBDBA8E00F63C45 /* H5version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F752469D89700FDBE6B /* H5Zpublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B316171BBDBA8E00F63C45 /* H5Zpublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F762469D89700FDBE6B /* HDF5Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B314A01BBDBA3100F63C45 /* HDF5Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA9C4F772469D8C200FDBE6B /* H5config.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B317881BBDBB9F00F63C45 /* H5config.h */; };
+		EA9C4F782469E88500FDBE6B /* hdf5.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3161C1BBDBA8E00F63C45 /* hdf5.h */; };
+		EA9C4F792469E88700FDBE6B /* hdf5.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3161C1BBDBA8E00F63C45 /* hdf5.h */; };
+		EA9C4F7A2469EA2700FDBE6B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185A9F01BD33B2D00CD5FC5 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1332,6 +1705,7 @@
 		A993B2BD1D8520F300FC5B6F /* DoubleAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleAttribute.swift; sourceTree = "<group>"; };
 		A993B2C01D8520FD00FC5B6F /* IntAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntAttribute.swift; sourceTree = "<group>"; };
 		A993B2C31D85210500FC5B6F /* StringAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringAttribute.swift; sourceTree = "<group>"; };
+		EA9C4DEA2469C12600FDBE6B /* HDF5Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDF5Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1367,6 +1741,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA9C4DE72469C12600FDBE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9C4F7A2469EA2700FDBE6B /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1388,6 +1770,7 @@
 				61B314AB1BBDBA3200F63C45 /* Tests */,
 				6185A9F21BD33B7200CD5FC5 /* Dependencies */,
 				61B3149E1BBDBA3100F63C45 /* Products */,
+				EA9C4DF22469C22900FDBE6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1398,6 +1781,7 @@
 				61B314A71BBDBA3200F63C45 /* HDF5KitTests.xctest */,
 				6185A7AB1BD3395200CD5FC5 /* HDF5Kit.framework */,
 				6185A7B41BD3395200CD5FC5 /* HDF5KitTests.xctest */,
+				EA9C4DEA2469C12600FDBE6B /* HDF5Kit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1892,6 +2276,13 @@
 			path = HDF5KitTests;
 			sourceTree = "<group>";
 		};
+		EA9C4DF22469C22900FDBE6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1967,6 +2358,7 @@
 				6185A9E71BD33A9D00CD5FC5 /* H5TSprivate.h in Headers */,
 				6185A9E81BD33A9D00CD5FC5 /* H5VMprivate.h in Headers */,
 				6185A9E91BD33A9D00CD5FC5 /* H5WBprivate.h in Headers */,
+				EA9C4F792469E88700FDBE6B /* hdf5.h in Headers */,
 				6185A9EA1BD33A9D00CD5FC5 /* H5Zprivate.h in Headers */,
 				6185A9EC1BD33AC300CD5FC5 /* H5config.h in Headers */,
 			);
@@ -2128,6 +2520,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA9C4DE52469C12600FDBE6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9C4F592469D89100FDBE6B /* H5ACpublic.h in Headers */,
+				EA9C4F5A2469D89100FDBE6B /* H5api_adpt.h in Headers */,
+				EA9C4F5B2469D89100FDBE6B /* H5Apublic.h in Headers */,
+				EA9C4F5C2469D89100FDBE6B /* H5B2public.h in Headers */,
+				EA9C4F5D2469D89200FDBE6B /* H5Bpublic.h in Headers */,
+				EA9C4F5E2469D89200FDBE6B /* H5Cpublic.h in Headers */,
+				EA9C4F5F2469D89200FDBE6B /* H5Dpublic.h in Headers */,
+				EA9C4F602469D89200FDBE6B /* H5Epubgen.h in Headers */,
+				EA9C4F612469D89300FDBE6B /* H5Epublic.h in Headers */,
+				EA9C4F622469D89300FDBE6B /* H5FDpublic.h in Headers */,
+				EA9C4F632469D89300FDBE6B /* H5Fpublic.h in Headers */,
+				EA9C4F642469D89300FDBE6B /* H5FSpublic.h in Headers */,
+				EA9C4F652469D89400FDBE6B /* H5Gpublic.h in Headers */,
+				EA9C4F662469D89400FDBE6B /* H5HFpublic.h in Headers */,
+				EA9C4F672469D89400FDBE6B /* H5HGpublic.h in Headers */,
+				EA9C4F682469D89400FDBE6B /* H5HLpublic.h in Headers */,
+				EA9C4F692469D89400FDBE6B /* H5Ipublic.h in Headers */,
+				EA9C4F6A2469D89500FDBE6B /* H5Lpublic.h in Headers */,
+				EA9C4F6B2469D89500FDBE6B /* H5MMpublic.h in Headers */,
+				EA9C4F6C2469D89500FDBE6B /* H5Opublic.h in Headers */,
+				EA9C4F6D2469D89500FDBE6B /* H5PLpublic.h in Headers */,
+				EA9C4F6E2469D89600FDBE6B /* H5Ppublic.h in Headers */,
+				EA9C4F6F2469D89600FDBE6B /* H5pubconf.h in Headers */,
+				EA9C4F702469D89600FDBE6B /* H5public.h in Headers */,
+				EA9C4F712469D89600FDBE6B /* H5Rpublic.h in Headers */,
+				EA9C4F722469D89700FDBE6B /* H5Spublic.h in Headers */,
+				EA9C4F732469D89700FDBE6B /* H5Tpublic.h in Headers */,
+				EA9C4F742469D89700FDBE6B /* H5version.h in Headers */,
+				EA9C4F752469D89700FDBE6B /* H5Zpublic.h in Headers */,
+				EA9C4F762469D89700FDBE6B /* HDF5Kit.h in Headers */,
+				EA9C4F322469C3A500FDBE6B /* H5ACprivate.h in Headers */,
+				EA9C4F332469C3A600FDBE6B /* H5Aprivate.h in Headers */,
+				EA9C4F342469C3A600FDBE6B /* H5B2private.h in Headers */,
+				EA9C4F352469C3A600FDBE6B /* H5Bprivate.h in Headers */,
+				EA9C4F362469C3A600FDBE6B /* H5Cprivate.h in Headers */,
+				EA9C4F372469C3A700FDBE6B /* H5CSprivate.h in Headers */,
+				EA9C4F382469C3A700FDBE6B /* H5Dprivate.h in Headers */,
+				EA9C4F392469C3A700FDBE6B /* H5Eprivate.h in Headers */,
+				EA9C4F3A2469C3A700FDBE6B /* H5FDprivate.h in Headers */,
+				EA9C4F3B2469C3A800FDBE6B /* H5FLprivate.h in Headers */,
+				EA9C4F3C2469C3A800FDBE6B /* H5FOprivate.h in Headers */,
+				EA9C4F3D2469C3A800FDBE6B /* H5Fprivate.h in Headers */,
+				EA9C4F3E2469C3A800FDBE6B /* H5FSprivate.h in Headers */,
+				EA9C4F3F2469C3A900FDBE6B /* H5Gprivate.h in Headers */,
+				EA9C4F402469C3A900FDBE6B /* H5HFprivate.h in Headers */,
+				EA9C4F412469C3A900FDBE6B /* H5HGprivate.h in Headers */,
+				EA9C4F422469C3A900FDBE6B /* H5HLprivate.h in Headers */,
+				EA9C4F432469C3AA00FDBE6B /* H5HPprivate.h in Headers */,
+				EA9C4F442469C3AA00FDBE6B /* H5Iprivate.h in Headers */,
+				EA9C4F452469C3AA00FDBE6B /* H5Lprivate.h in Headers */,
+				EA9C4F462469C3AA00FDBE6B /* H5MFprivate.h in Headers */,
+				EA9C4F472469C3AA00FDBE6B /* H5MMprivate.h in Headers */,
+				EA9C4F482469C3AB00FDBE6B /* H5MPprivate.h in Headers */,
+				EA9C4F492469C3AB00FDBE6B /* H5Oprivate.h in Headers */,
+				EA9C4F4A2469C3AB00FDBE6B /* H5PLprivate.h in Headers */,
+				EA9C4F4B2469C3AB00FDBE6B /* H5Pprivate.h in Headers */,
+				EA9C4F4C2469C3AC00FDBE6B /* H5private.h in Headers */,
+				EA9C4F4D2469C3AC00FDBE6B /* H5RCprivate.h in Headers */,
+				EA9C4F4E2469C3AC00FDBE6B /* H5Rprivate.h in Headers */,
+				EA9C4F4F2469C3AC00FDBE6B /* H5RSprivate.h in Headers */,
+				EA9C4F502469C3AD00FDBE6B /* H5SLprivate.h in Headers */,
+				EA9C4F512469C3AD00FDBE6B /* H5SMprivate.h in Headers */,
+				EA9C4F522469C3AD00FDBE6B /* H5Sprivate.h in Headers */,
+				EA9C4F532469C3AD00FDBE6B /* H5STprivate.h in Headers */,
+				EA9C4F542469C3AE00FDBE6B /* H5Tprivate.h in Headers */,
+				EA9C4F552469C3AE00FDBE6B /* H5TSprivate.h in Headers */,
+				EA9C4F562469C3AE00FDBE6B /* H5VMprivate.h in Headers */,
+				EA9C4F572469C3AE00FDBE6B /* H5WBprivate.h in Headers */,
+				EA9C4F782469E88500FDBE6B /* hdf5.h in Headers */,
+				EA9C4F582469C3AF00FDBE6B /* H5Zprivate.h in Headers */,
+				EA9C4F772469D8C200FDBE6B /* H5config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2203,6 +2673,24 @@
 			productReference = 61B314A71BBDBA3200F63C45 /* HDF5KitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EA9C4DE92469C12600FDBE6B /* HDF5Kit-WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9C4DEF2469C12600FDBE6B /* Build configuration list for PBXNativeTarget "HDF5Kit-WatchOS" */;
+			buildPhases = (
+				EA9C4DE52469C12600FDBE6B /* Headers */,
+				EA9C4DE62469C12600FDBE6B /* Sources */,
+				EA9C4DE72469C12600FDBE6B /* Frameworks */,
+				EA9C4DE82469C12600FDBE6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HDF5Kit-WatchOS";
+			productName = HDF5Kit;
+			productReference = EA9C4DEA2469C12600FDBE6B /* HDF5Kit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2215,6 +2703,7 @@
 				TargetAttributes = {
 					6185A7AA1BD3395200CD5FC5 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4DMRB8F65V;
 						LastSwiftMigration = 0910;
 					};
 					6185A7B31BD3395200CD5FC5 = {
@@ -2223,11 +2712,17 @@
 					};
 					61B3149C1BBDBA3100F63C45 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4DMRB8F65V;
 						LastSwiftMigration = 1000;
 					};
 					61B314A61BBDBA3200F63C45 = {
 						CreatedOnToolsVersion = 7.0.1;
 						LastSwiftMigration = 1000;
+					};
+					EA9C4DE92469C12600FDBE6B = {
+						CreatedOnToolsVersion = 11.4.1;
+						DevelopmentTeam = 4DMRB8F65V;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -2236,6 +2731,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 61B314931BBDBA3100F63C45;
@@ -2247,6 +2743,7 @@
 				61B314A61BBDBA3200F63C45 /* HDF5KitTests-OSX */,
 				6185A7AA1BD3395200CD5FC5 /* HDF5Kit-iOS */,
 				6185A7B31BD3395200CD5FC5 /* HDF5KitTests-iOS */,
+				EA9C4DE92469C12600FDBE6B /* HDF5Kit-WatchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -2275,6 +2772,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		61B314A51BBDBA3200F63C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9C4DE82469C12600FDBE6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2926,6 +3430,313 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA9C4DE62469C12600FDBE6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9C4E062469C2BA00FDBE6B /* H5.c in Sources */,
+				EA9C4E072469C2BA00FDBE6B /* H5A.c in Sources */,
+				EA9C4E082469C2BB00FDBE6B /* H5Abtree2.c in Sources */,
+				EA9C4E092469C2BB00FDBE6B /* H5AC.c in Sources */,
+				EA9C4E0A2469C2BC00FDBE6B /* H5AClog.c in Sources */,
+				EA9C4E0B2469C2BC00FDBE6B /* H5ACmpio.c in Sources */,
+				EA9C4E0C2469C2BC00FDBE6B /* H5Adense.c in Sources */,
+				EA9C4E0D2469C2BD00FDBE6B /* H5Adeprec.c in Sources */,
+				EA9C4E0E2469C2BD00FDBE6B /* H5Aint.c in Sources */,
+				EA9C4E0F2469C2BE00FDBE6B /* H5Atest.c in Sources */,
+				EA9C4E102469C2BE00FDBE6B /* H5B.c in Sources */,
+				EA9C4E112469C2BF00FDBE6B /* H5B2.c in Sources */,
+				EA9C4E122469C2BF00FDBE6B /* H5B2cache.c in Sources */,
+				EA9C4E132469C2BF00FDBE6B /* H5B2dbg.c in Sources */,
+				EA9C4E142469C2C000FDBE6B /* H5B2hdr.c in Sources */,
+				EA9C4E152469C2C000FDBE6B /* H5B2int.c in Sources */,
+				EA9C4E162469C2C100FDBE6B /* H5B2stat.c in Sources */,
+				EA9C4E172469C2C100FDBE6B /* H5B2test.c in Sources */,
+				EA9C4E182469C2C100FDBE6B /* H5Bcache.c in Sources */,
+				EA9C4E192469C2C200FDBE6B /* H5Bdbg.c in Sources */,
+				EA9C4E1A2469C2C200FDBE6B /* H5C.c in Sources */,
+				EA9C4E1B2469C2C300FDBE6B /* H5checksum.c in Sources */,
+				EA9C4E1C2469C2C300FDBE6B /* H5Cmpio.c in Sources */,
+				EA9C4E1D2469C2C400FDBE6B /* H5CS.c in Sources */,
+				EA9C4E1E2469C2C400FDBE6B /* H5D.c in Sources */,
+				EA9C4E1F2469C2C400FDBE6B /* H5dbg.c in Sources */,
+				EA9C4E202469C2C500FDBE6B /* H5Dbtree.c in Sources */,
+				EA9C4E212469C2C500FDBE6B /* H5Dbtree2.c in Sources */,
+				EA9C4E222469C2C600FDBE6B /* H5Dchunk.c in Sources */,
+				EA9C4E232469C2C600FDBE6B /* H5Dcompact.c in Sources */,
+				EA9C4E242469C2C600FDBE6B /* H5Dcontig.c in Sources */,
+				EA9C4E252469C2C700FDBE6B /* H5Ddbg.c in Sources */,
+				EA9C4E262469C2C700FDBE6B /* H5Ddeprec.c in Sources */,
+				EA9C4E272469C2C800FDBE6B /* H5Dearray.c in Sources */,
+				EA9C4E282469C2C800FDBE6B /* H5Defl.c in Sources */,
+				EA9C4E292469C2C800FDBE6B /* H5Dfarray.c in Sources */,
+				EA9C4E2A2469C2C900FDBE6B /* H5Dfill.c in Sources */,
+				EA9C4E2B2469C2C900FDBE6B /* H5Dint.c in Sources */,
+				EA9C4E2C2469C2CA00FDBE6B /* H5Dio.c in Sources */,
+				EA9C4E2D2469C2CA00FDBE6B /* H5Dlayout.c in Sources */,
+				EA9C4E2E2469C2CA00FDBE6B /* H5Dmpio.c in Sources */,
+				EA9C4E2F2469C2CB00FDBE6B /* H5Dnone.c in Sources */,
+				EA9C4E302469C2CB00FDBE6B /* H5Doh.c in Sources */,
+				EA9C4E312469C2CC00FDBE6B /* H5Dscatgath.c in Sources */,
+				EA9C4E322469C2CC00FDBE6B /* H5Dselect.c in Sources */,
+				EA9C4E332469C2CD00FDBE6B /* H5Dsingle.c in Sources */,
+				EA9C4E342469C2CD00FDBE6B /* H5Dtest.c in Sources */,
+				EA9C4E352469C2CD00FDBE6B /* H5Dvirtual.c in Sources */,
+				EA9C4E362469C2CE00FDBE6B /* H5E.c in Sources */,
+				EA9C4E372469C2CE00FDBE6B /* H5EA.c in Sources */,
+				EA9C4E382469C2CF00FDBE6B /* H5EAcache.c in Sources */,
+				EA9C4E392469C2CF00FDBE6B /* H5EAdbg.c in Sources */,
+				EA9C4E3A2469C2CF00FDBE6B /* H5EAdblkpage.c in Sources */,
+				EA9C4E3B2469C2D000FDBE6B /* H5EAdblock.c in Sources */,
+				EA9C4E3C2469C2D000FDBE6B /* H5EAhdr.c in Sources */,
+				EA9C4E3D2469C2D100FDBE6B /* H5EAiblock.c in Sources */,
+				EA9C4E3E2469C2D100FDBE6B /* H5EAint.c in Sources */,
+				EA9C4E3F2469C2D100FDBE6B /* H5EAsblock.c in Sources */,
+				EA9C4E402469C2D200FDBE6B /* H5EAstat.c in Sources */,
+				EA9C4E412469C2D200FDBE6B /* H5EAtest.c in Sources */,
+				EA9C4E422469C2D300FDBE6B /* H5Edeprec.c in Sources */,
+				EA9C4E432469C2D300FDBE6B /* H5Eint.c in Sources */,
+				EA9C4E442469C2D300FDBE6B /* H5F.c in Sources */,
+				EA9C4E452469C2D400FDBE6B /* H5FA.c in Sources */,
+				EA9C4E462469C2D400FDBE6B /* H5FAcache.c in Sources */,
+				EA9C4E472469C2D500FDBE6B /* H5Faccum.c in Sources */,
+				EA9C4E482469C2D500FDBE6B /* H5FAdbg.c in Sources */,
+				EA9C4E492469C2D500FDBE6B /* H5FAdblkpage.c in Sources */,
+				EA9C4E4A2469C2D600FDBE6B /* H5FAdblock.c in Sources */,
+				EA9C4E4B2469C2D600FDBE6B /* H5FAhdr.c in Sources */,
+				EA9C4E4C2469C2D700FDBE6B /* H5FAint.c in Sources */,
+				EA9C4E4D2469C2D700FDBE6B /* H5FAstat.c in Sources */,
+				EA9C4E4E2469C2D700FDBE6B /* H5FAtest.c in Sources */,
+				EA9C4E4F2469C2D800FDBE6B /* H5Fcwfs.c in Sources */,
+				EA9C4E502469C2D800FDBE6B /* H5FD.c in Sources */,
+				EA9C4E512469C2D900FDBE6B /* H5Fdbg.c in Sources */,
+				EA9C4E522469C2D900FDBE6B /* H5FDcore.c in Sources */,
+				EA9C4E532469C2DA00FDBE6B /* H5FDdirect.c in Sources */,
+				EA9C4E542469C2DA00FDBE6B /* H5Fdeprec.c in Sources */,
+				EA9C4E552469C2DA00FDBE6B /* H5FDfamily.c in Sources */,
+				EA9C4E562469C2DB00FDBE6B /* H5FDint.c in Sources */,
+				EA9C4E572469C2DB00FDBE6B /* H5FDlog.c in Sources */,
+				EA9C4E582469C2DC00FDBE6B /* H5FDmpi.c in Sources */,
+				EA9C4E592469C2DC00FDBE6B /* H5FDmpio.c in Sources */,
+				EA9C4E5A2469C2DC00FDBE6B /* H5FDmulti.c in Sources */,
+				EA9C4E5B2469C2DD00FDBE6B /* H5FDsec2.c in Sources */,
+				EA9C4E5C2469C2DD00FDBE6B /* H5FDspace.c in Sources */,
+				EA9C4E5D2469C2DE00FDBE6B /* H5FDstdio.c in Sources */,
+				EA9C4E5E2469C2DE00FDBE6B /* H5FDtest.c in Sources */,
+				EA9C4E5F2469C2DE00FDBE6B /* H5FDwindows.c in Sources */,
+				EA9C4E602469C2DF00FDBE6B /* H5Fefc.c in Sources */,
+				EA9C4E612469C2DF00FDBE6B /* H5Ffake.c in Sources */,
+				EA9C4E622469C2E000FDBE6B /* H5Fint.c in Sources */,
+				EA9C4E632469C2E000FDBE6B /* H5Fio.c in Sources */,
+				EA9C4E642469C2E100FDBE6B /* H5FL.c in Sources */,
+				EA9C4E652469C2E100FDBE6B /* H5Fmount.c in Sources */,
+				EA9C4E662469C2E100FDBE6B /* H5Fmpi.c in Sources */,
+				EA9C4E672469C2E200FDBE6B /* H5FO.c in Sources */,
+				EA9C4E682469C2E200FDBE6B /* H5Fquery.c in Sources */,
+				EA9C4E692469C2E300FDBE6B /* H5FS.c in Sources */,
+				EA9C4E6A2469C2E300FDBE6B /* H5FScache.c in Sources */,
+				EA9C4E6B2469C2E300FDBE6B /* H5FSdbg.c in Sources */,
+				EA9C4E6C2469C2E400FDBE6B /* H5Fsfile.c in Sources */,
+				EA9C4E6D2469C2E400FDBE6B /* H5FSint.c in Sources */,
+				EA9C4E6E2469C2E500FDBE6B /* H5FSsection.c in Sources */,
+				EA9C4E6F2469C2E500FDBE6B /* H5FSstat.c in Sources */,
+				EA9C4E702469C2E500FDBE6B /* H5FStest.c in Sources */,
+				EA9C4E712469C2E600FDBE6B /* H5Fsuper_cache.c in Sources */,
+				EA9C4E722469C2E600FDBE6B /* H5Fsuper.c in Sources */,
+				EA9C4E732469C2E700FDBE6B /* H5Ftest.c in Sources */,
+				EA9C4E742469C2E700FDBE6B /* H5G.c in Sources */,
+				EA9C4E752469C2E800FDBE6B /* H5Gbtree2.c in Sources */,
+				EA9C4E762469C2E800FDBE6B /* H5Gcache.c in Sources */,
+				EA9C4E772469C2E800FDBE6B /* H5Gcompact.c in Sources */,
+				EA9C4E782469C2E900FDBE6B /* H5Gdense.c in Sources */,
+				EA9C4E792469C2E900FDBE6B /* H5Gdeprec.c in Sources */,
+				EA9C4E7A2469C2EA00FDBE6B /* H5Gent.c in Sources */,
+				EA9C4E7B2469C2EA00FDBE6B /* H5Gint.c in Sources */,
+				EA9C4E7C2469C2EA00FDBE6B /* H5Glink.c in Sources */,
+				EA9C4E7D2469C2EB00FDBE6B /* H5Gloc.c in Sources */,
+				EA9C4E7E2469C2EB00FDBE6B /* H5Gname.c in Sources */,
+				EA9C4E7F2469C2EC00FDBE6B /* H5Gnode.c in Sources */,
+				EA9C4E802469C2EC00FDBE6B /* H5Gobj.c in Sources */,
+				EA9C4E812469C2EC00FDBE6B /* H5Goh.c in Sources */,
+				EA9C4E822469C2ED00FDBE6B /* H5Groot.c in Sources */,
+				EA9C4E832469C2ED00FDBE6B /* H5Gstab.c in Sources */,
+				EA9C4E842469C2EE00FDBE6B /* H5Gtest.c in Sources */,
+				EA9C4E852469C2EE00FDBE6B /* H5Gtraverse.c in Sources */,
+				EA9C4E862469C2EE00FDBE6B /* H5HF.c in Sources */,
+				EA9C4E872469C2EF00FDBE6B /* H5HFbtree2.c in Sources */,
+				EA9C4E882469C2EF00FDBE6B /* H5HFcache.c in Sources */,
+				EA9C4E892469C2F000FDBE6B /* H5HFdbg.c in Sources */,
+				EA9C4E8A2469C2F000FDBE6B /* H5HFdblock.c in Sources */,
+				EA9C4E8B2469C2F100FDBE6B /* H5HFdtable.c in Sources */,
+				EA9C4E8C2469C2F100FDBE6B /* H5HFhdr.c in Sources */,
+				EA9C4E8D2469C2F100FDBE6B /* H5HFhuge.c in Sources */,
+				EA9C4E8E2469C2F200FDBE6B /* H5HFiblock.c in Sources */,
+				EA9C4E8F2469C2F200FDBE6B /* H5HFint.c in Sources */,
+				EA9C4E902469C2F300FDBE6B /* H5HFiter.c in Sources */,
+				EA9C4E912469C2F300FDBE6B /* H5HFman.c in Sources */,
+				EA9C4E922469C2F300FDBE6B /* H5HFsection.c in Sources */,
+				EA9C4E932469C2F400FDBE6B /* H5HFspace.c in Sources */,
+				EA9C4E942469C2F400FDBE6B /* H5HFstat.c in Sources */,
+				EA9C4E952469C2F500FDBE6B /* H5HFtest.c in Sources */,
+				EA9C4E962469C2F500FDBE6B /* H5HFtiny.c in Sources */,
+				EA9C4E972469C2F500FDBE6B /* H5HG.c in Sources */,
+				EA9C4E982469C2F600FDBE6B /* H5HGcache.c in Sources */,
+				EA9C4E992469C2F600FDBE6B /* H5HGdbg.c in Sources */,
+				EA9C4E9A2469C2F700FDBE6B /* H5HGquery.c in Sources */,
+				EA9C4E9B2469C2F700FDBE6B /* H5HL.c in Sources */,
+				EA9C4E9C2469C2F800FDBE6B /* H5HLcache.c in Sources */,
+				EA9C4E9D2469C2F800FDBE6B /* H5HLdbg.c in Sources */,
+				EA9C4E9E2469C2F800FDBE6B /* H5HLdblk.c in Sources */,
+				EA9C4E9F2469C2F900FDBE6B /* H5HLint.c in Sources */,
+				EA9C4EA02469C2F900FDBE6B /* H5HLprfx.c in Sources */,
+				EA9C4EA12469C2FA00FDBE6B /* H5HP.c in Sources */,
+				EA9C4EA22469C2FA00FDBE6B /* H5I.c in Sources */,
+				EA9C4EA32469C2FA00FDBE6B /* H5Itest.c in Sources */,
+				EA9C4EA42469C2FB00FDBE6B /* H5L.c in Sources */,
+				EA9C4EA52469C2FB00FDBE6B /* H5Lexternal.c in Sources */,
+				EA9C4EA62469C2FC00FDBE6B /* H5lib_settings.c in Sources */,
+				EA9C4EA72469C2FC00FDBE6B /* H5make_libsettings.c in Sources */,
+				EA9C4EA82469C2FC00FDBE6B /* H5MF.c in Sources */,
+				EA9C4EA92469C2FD00FDBE6B /* H5MFaggr.c in Sources */,
+				EA9C4EAA2469C2FD00FDBE6B /* H5MFdbg.c in Sources */,
+				EA9C4EAB2469C2FE00FDBE6B /* H5MFsection.c in Sources */,
+				EA9C4EAC2469C2FE00FDBE6B /* H5MM.c in Sources */,
+				EA9C4EAD2469C2FE00FDBE6B /* H5MP.c in Sources */,
+				EA9C4EAE2469C2FF00FDBE6B /* H5MPtest.c in Sources */,
+				EA9C4EAF2469C2FF00FDBE6B /* H5O.c in Sources */,
+				EA9C4EB02469C30000FDBE6B /* H5Oainfo.c in Sources */,
+				EA9C4EB12469C30000FDBE6B /* H5Oalloc.c in Sources */,
+				EA9C4EB22469C30000FDBE6B /* H5Oattr.c in Sources */,
+				EA9C4EB32469C30100FDBE6B /* H5Oattribute.c in Sources */,
+				EA9C4EB42469C30100FDBE6B /* H5Obogus.c in Sources */,
+				EA9C4EB52469C30200FDBE6B /* H5Obtreek.c in Sources */,
+				EA9C4EB62469C30200FDBE6B /* H5Ocache.c in Sources */,
+				EA9C4EB72469C30200FDBE6B /* H5Ochunk.c in Sources */,
+				EA9C4EB82469C30300FDBE6B /* H5Ocont.c in Sources */,
+				EA9C4EB92469C30300FDBE6B /* H5Ocopy.c in Sources */,
+				EA9C4EBA2469C30400FDBE6B /* H5Odbg.c in Sources */,
+				EA9C4EBB2469C30400FDBE6B /* H5Odrvinfo.c in Sources */,
+				EA9C4EBC2469C30500FDBE6B /* H5Odtype.c in Sources */,
+				EA9C4EBD2469C30500FDBE6B /* H5Oefl.c in Sources */,
+				EA9C4EBE2469C30500FDBE6B /* H5Ofill.c in Sources */,
+				EA9C4EBF2469C30600FDBE6B /* H5Oflush.c in Sources */,
+				EA9C4EC02469C30600FDBE6B /* H5Ofsinfo.c in Sources */,
+				EA9C4EC12469C30700FDBE6B /* H5Oginfo.c in Sources */,
+				EA9C4EC22469C30700FDBE6B /* H5Olayout.c in Sources */,
+				EA9C4EC32469C30700FDBE6B /* H5Olinfo.c in Sources */,
+				EA9C4EC42469C30800FDBE6B /* H5Olink.c in Sources */,
+				EA9C4EC52469C30800FDBE6B /* H5Omessage.c in Sources */,
+				EA9C4EC62469C30900FDBE6B /* H5Omtime.c in Sources */,
+				EA9C4EC72469C30900FDBE6B /* H5Oname.c in Sources */,
+				EA9C4EC82469C30900FDBE6B /* H5Onull.c in Sources */,
+				EA9C4EC92469C30A00FDBE6B /* H5Opline.c in Sources */,
+				EA9C4ECA2469C30A00FDBE6B /* H5Oproxy.c in Sources */,
+				EA9C4ECB2469C30B00FDBE6B /* H5Orefcount.c in Sources */,
+				EA9C4ECC2469C30B00FDBE6B /* H5Osdspace.c in Sources */,
+				EA9C4ECD2469C30B00FDBE6B /* H5Oshared.c in Sources */,
+				EA9C4ECE2469C30C00FDBE6B /* H5Oshmesg.c in Sources */,
+				EA9C4ECF2469C30C00FDBE6B /* H5Ostab.c in Sources */,
+				EA9C4ED02469C30D00FDBE6B /* H5Otest.c in Sources */,
+				EA9C4ED12469C30D00FDBE6B /* H5Ounknown.c in Sources */,
+				EA9C4ED22469C30D00FDBE6B /* H5P.c in Sources */,
+				EA9C4ED32469C30E00FDBE6B /* H5Pacpl.c in Sources */,
+				EA9C4ED42469C30E00FDBE6B /* H5Pdapl.c in Sources */,
+				EA9C4ED52469C30F00FDBE6B /* H5Pdcpl.c in Sources */,
+				EA9C4ED62469C30F00FDBE6B /* H5Pdeprec.c in Sources */,
+				EA9C4ED72469C30F00FDBE6B /* H5Pdxpl.c in Sources */,
+				EA9C4ED82469C31000FDBE6B /* H5Pencdec.c in Sources */,
+				EA9C4ED92469C31000FDBE6B /* H5Pfapl.c in Sources */,
+				EA9C4EDA2469C31100FDBE6B /* H5Pfcpl.c in Sources */,
+				EA9C4EDB2469C31100FDBE6B /* H5Pfmpl.c in Sources */,
+				EA9C4EDC2469C31100FDBE6B /* H5Pgcpl.c in Sources */,
+				EA9C4EDD2469C31200FDBE6B /* H5Pint.c in Sources */,
+				EA9C4EDE2469C31200FDBE6B /* H5PL.c in Sources */,
+				EA9C4EDF2469C31300FDBE6B /* H5Plapl.c in Sources */,
+				EA9C4EE02469C31300FDBE6B /* H5Plcpl.c in Sources */,
+				EA9C4EE12469C31300FDBE6B /* H5Pocpl.c in Sources */,
+				EA9C4EE22469C31400FDBE6B /* H5Pocpypl.c in Sources */,
+				EA9C4EE32469C31400FDBE6B /* H5Pstrcpl.c in Sources */,
+				EA9C4EE42469C31500FDBE6B /* H5Ptest.c in Sources */,
+				EA9C4EE52469C31500FDBE6B /* H5R.c in Sources */,
+				EA9C4EE62469C31500FDBE6B /* H5RC.c in Sources */,
+				EA9C4EE72469C31600FDBE6B /* H5Rdeprec.c in Sources */,
+				EA9C4EE82469C31600FDBE6B /* H5RS.c in Sources */,
+				EA9C4EE92469C31700FDBE6B /* H5S.c in Sources */,
+				EA9C4EEA2469C31700FDBE6B /* H5Sall.c in Sources */,
+				EA9C4EEB2469C31700FDBE6B /* H5Sdbg.c in Sources */,
+				EA9C4EEC2469C31800FDBE6B /* H5Shyper.c in Sources */,
+				EA9C4EED2469C31800FDBE6B /* H5SL.c in Sources */,
+				EA9C4EEE2469C31900FDBE6B /* H5SM.c in Sources */,
+				EA9C4EEF2469C31900FDBE6B /* H5SMbtree2.c in Sources */,
+				EA9C4EF02469C31900FDBE6B /* H5SMcache.c in Sources */,
+				EA9C4EF12469C31A00FDBE6B /* H5SMmessage.c in Sources */,
+				EA9C4EF22469C31A00FDBE6B /* H5Smpio.c in Sources */,
+				EA9C4EF32469C31B00FDBE6B /* H5SMtest.c in Sources */,
+				EA9C4EF42469C31B00FDBE6B /* H5Snone.c in Sources */,
+				EA9C4EF52469C31B00FDBE6B /* H5Spoint.c in Sources */,
+				EA9C4EF62469C31C00FDBE6B /* H5Sselect.c in Sources */,
+				EA9C4EF72469C31C00FDBE6B /* H5ST.c in Sources */,
+				EA9C4EF82469C31D00FDBE6B /* H5Stest.c in Sources */,
+				EA9C4EF92469C31D00FDBE6B /* H5system.c in Sources */,
+				EA9C4EFA2469C31D00FDBE6B /* H5T.c in Sources */,
+				EA9C4EFB2469C31E00FDBE6B /* H5Tarray.c in Sources */,
+				EA9C4EFC2469C31E00FDBE6B /* H5Tbit.c in Sources */,
+				EA9C4EFD2469C31F00FDBE6B /* H5Tcommit.c in Sources */,
+				EA9C4EFE2469C31F00FDBE6B /* H5Tcompound.c in Sources */,
+				EA9C4EFF2469C31F00FDBE6B /* H5Tconv.c in Sources */,
+				EA9C4F002469C32000FDBE6B /* H5Tcset.c in Sources */,
+				EA9C4F012469C32000FDBE6B /* H5Tdbg.c in Sources */,
+				EA9C4F022469C32100FDBE6B /* H5Tdeprec.c in Sources */,
+				EA9C4F032469C32100FDBE6B /* H5Tenum.c in Sources */,
+				EA9C4F042469C32200FDBE6B /* H5Tfields.c in Sources */,
+				EA9C4F052469C32200FDBE6B /* H5Tfixed.c in Sources */,
+				EA9C4F062469C32200FDBE6B /* H5Tfloat.c in Sources */,
+				EA9C4F072469C32300FDBE6B /* H5timer.c in Sources */,
+				EA9C4F082469C32300FDBE6B /* H5Tinit.c in Sources */,
+				EA9C4F092469C32400FDBE6B /* H5Tnative.c in Sources */,
+				EA9C4F0A2469C32400FDBE6B /* H5Toffset.c in Sources */,
+				EA9C4F0B2469C32400FDBE6B /* H5Toh.c in Sources */,
+				EA9C4F0C2469C32500FDBE6B /* H5Topaque.c in Sources */,
+				EA9C4F0D2469C32500FDBE6B /* H5Torder.c in Sources */,
+				EA9C4F0E2469C32600FDBE6B /* H5Tpad.c in Sources */,
+				EA9C4F0F2469C32600FDBE6B /* H5Tprecis.c in Sources */,
+				EA9C4F102469C32600FDBE6B /* H5trace.c in Sources */,
+				EA9C4F112469C32700FDBE6B /* H5TS.c in Sources */,
+				EA9C4F122469C32700FDBE6B /* H5Tstrpad.c in Sources */,
+				EA9C4F132469C32700FDBE6B /* H5Tvisit.c in Sources */,
+				EA9C4F142469C32800FDBE6B /* H5Tvlen.c in Sources */,
+				EA9C4F152469C32800FDBE6B /* H5UC.c in Sources */,
+				EA9C4F162469C32900FDBE6B /* H5VM.c in Sources */,
+				EA9C4F172469C32900FDBE6B /* H5WB.c in Sources */,
+				EA9C4F182469C32900FDBE6B /* H5Z.c in Sources */,
+				EA9C4F192469C32A00FDBE6B /* H5Zdeflate.c in Sources */,
+				EA9C4F1A2469C32A00FDBE6B /* H5Zfletcher32.c in Sources */,
+				EA9C4F1B2469C32B00FDBE6B /* H5Znbit.c in Sources */,
+				EA9C4F1C2469C32B00FDBE6B /* H5Zscaleoffset.c in Sources */,
+				EA9C4F1D2469C32B00FDBE6B /* H5Zshuffle.c in Sources */,
+				EA9C4F1E2469C32C00FDBE6B /* H5Zszip.c in Sources */,
+				EA9C4F1F2469C32C00FDBE6B /* H5Ztrans.c in Sources */,
+				EA9C4F202469C32D00FDBE6B /* Attribute.swift in Sources */,
+				EA9C4F212469C32D00FDBE6B /* Dataset.swift in Sources */,
+				EA9C4F222469C32D00FDBE6B /* Dataspace.swift in Sources */,
+				EA9C4F232469C32E00FDBE6B /* Datatype.swift in Sources */,
+				EA9C4F242469C32E00FDBE6B /* DoubleAttribute.swift in Sources */,
+				EA9C4F252469C32F00FDBE6B /* DoubleDataset.swift in Sources */,
+				EA9C4F262469C32F00FDBE6B /* Error.swift in Sources */,
+				EA9C4F272469C32F00FDBE6B /* File.swift in Sources */,
+				EA9C4F282469C33000FDBE6B /* FloatAttribute.swift in Sources */,
+				EA9C4F292469C33000FDBE6B /* FloatDataset.swift in Sources */,
+				EA9C4F2A2469C33100FDBE6B /* Group.swift in Sources */,
+				EA9C4F2B2469C33100FDBE6B /* HyperslabIndex.swift in Sources */,
+				EA9C4F2C2469C33100FDBE6B /* IntAttribute.swift in Sources */,
+				EA9C4F2D2469C33200FDBE6B /* IntDataset.swift in Sources */,
+				EA9C4F2E2469C33200FDBE6B /* NativeType.swift in Sources */,
+				EA9C4F2F2469C33300FDBE6B /* Object.swift in Sources */,
+				EA9C4F302469C33300FDBE6B /* StringAttribute.swift in Sources */,
+				EA9C4F312469C33300FDBE6B /* StringDataset.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2948,8 +3759,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: albert.buchard@gmail.com (NGDZ282GPN)";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DMRB8F65V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2959,6 +3772,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5Kit;
 				PRODUCT_NAME = HDF5Kit;
 				SDKROOT = iphoneos;
@@ -2973,8 +3787,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: albert.buchard@gmail.com (NGDZ282GPN)";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DMRB8F65V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2984,6 +3800,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5Kit;
 				PRODUCT_NAME = HDF5Kit;
 				SDKROOT = iphoneos;
@@ -3146,8 +3963,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DMRB8F65V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3155,6 +3974,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5Kit;
 				PRODUCT_NAME = HDF5Kit;
 				SKIP_INSTALL = YES;
@@ -3167,8 +3987,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DMRB8F65V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3176,6 +3998,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5Kit;
 				PRODUCT_NAME = HDF5Kit;
 				SKIP_INSTALL = YES;
@@ -3203,6 +4026,91 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5KitTests;
 				PRODUCT_NAME = HDF5KitTests;
+			};
+			name = Release;
+		};
+		EA9C4DF02469C12600FDBE6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "Apple Development: albert.buchard@gmail.com (NGDZ282GPN)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DMRB8F65V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5Kit;
+				PRODUCT_NAME = HDF5Kit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		EA9C4DF12469C12600FDBE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "Apple Development: albert.buchard@gmail.com (NGDZ282GPN)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DMRB8F65V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturemedia.HDF5Kit;
+				PRODUCT_NAME = HDF5Kit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
@@ -3250,6 +4158,15 @@
 			buildConfigurations = (
 				61B314B51BBDBA3200F63C45 /* Debug */,
 				61B314B61BBDBA3200F63C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9C4DEF2469C12600FDBE6B /* Build configuration list for PBXNativeTarget "HDF5Kit-WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9C4DF02469C12600FDBE6B /* Debug */,
+				EA9C4DF12469C12600FDBE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
